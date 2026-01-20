@@ -1,0 +1,38 @@
+<style>
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.logo {
+  height: 32px;
+  margin: 0 40px;
+  flex-shrink: 0;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
+<div class="relative max-w-[100vw] leading-none bg-[#fff7f8]">
+  <div class="flex flex-col items-center bg-[#f3eee0] py-5 gap-5">
+    <h3 class="text-[24px] text-black font-normal font-[Trirong,serif] tracking-normal">
+      As Seen In
+    </h3>
+    <div class="relative w-full overflow-hidden">
+      <div id="marquee-track" class="marquee-track items-center">
+        <img src="//trysculptique.com/cdn/shop/files/layer1_500x.png?v=1752348678"
+             class="h-8 mx-10" />
+
+        <img src="//trysculptique.com/cdn/shop/files/Grazia-Logo_1_500x.png?v=1752348678"
+             class="h-8 mx-10" />
+
+        <img src="//trysculptique.com/cdn/shop/files/WH_Logo_500x.png?v=1752348678"
+             class="h-8 mx-10" />
+      </div>
+    </div>
+
+  </div>
+</div>
