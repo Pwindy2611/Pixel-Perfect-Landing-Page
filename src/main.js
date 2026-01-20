@@ -8,7 +8,7 @@ import { initMarquee } from './components/press/pressMarquee.js';
 import { initProductAccordion } from './components/ingredients/ProductAccordion.js';
 import { initProductFAQ } from './components/faq/productFAQ.js';
 import { initCustomerReviews } from './components/trust/customerReviews.js';
-import { initCommentReviewsLogic } from './components/reviews/CommentReviews.js/index.js';
+import { initCommentReviewsLogic } from './components/reviews/CommentReviews.js';
 import { initProductSlider } from './components/hero/productSlider.js';
 
 async function loadComponent(id, path, callback) {
