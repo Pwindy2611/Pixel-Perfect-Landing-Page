@@ -5,10 +5,10 @@ import { initHeroTabs } from './components/hero/ptoductHeroTabs.js';
 import { initCliniciansPanel } from './components/hero/productCliniciansPanel.js';
 import { initNutritionPopup } from './components/popup/nutritionPopup.js';
 import { initMarquee } from './components/press/pressMarquee.js';
-import { initProductAccordion } from './components/ingredients/ProductAccordion.JS';
+import { initProductAccordion } from './components/ingredients/ProductAccordion.js/index.js';
 import { initProductFAQ } from './components/faq/productFAQ.js';
 import { initCustomerReviews } from './components/trust/customerReviews.js';
-import { initCommentReviewsLogic } from './components/reviews/CommentReviews.JS';
+import { initCommentReviewsLogic } from './components/reviews/CommentReviews.js/index.js';
 import { initProductSlider } from './components/hero/productSlider.js';
 
 async function loadComponent(id, path, callback) {
